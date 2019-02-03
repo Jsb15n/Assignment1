@@ -1,0 +1,46 @@
+a) C:\Users\juans\Documents\GitHub\Assignment1>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 429 bytes | 429.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Jsb15n/Assignment1.git
+   6632a6f..ce8b621  master -> master
+
+b)5
+git rev-list --count HEAD
+
+c)29 days ago
+git log .gitignore
+
+d)Branches can be used when fixing bugs in order to manipulate the files without 
+compromising the master branch. It also is used for the same reason when 
+implementing a new functionality.
+
+e)Git status prints the working tree status. Git log prints the commits instead of the tree.
+
+f)git log Weapon.h
+
+g)git log --grep="file"
+
+h)Inheritance is when a class receives parts of it's definition from another class.
+In other words a class is a child from other class.
+
+Polymorphism can be when there's overloaded functions in a class that have the same
+name but different parameters. Or when a children class modifies or changes 
+completely a function of the parent class.
+
+Encapsulation is when the private variables of a class are wraped under setter and
+getter functions.
+
+i)In the intregration workflow each developer gets two repositories and each of them push to 
+their public rep.. In the Dictator workflow there's only one rep. per developer 
+and they push to the next hierarchy.
+
+j)In the case that all of the developers where to commit changes on the same files
+a centralized workflow would require an enourmous amount of extra work. The dictator
+workflow would divide and conquer such issue making it way faster and efficient.
+
+
