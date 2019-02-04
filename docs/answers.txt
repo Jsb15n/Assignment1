@@ -43,4 +43,15 @@ j)In the case that all of the developers where to commit changes on the same fil
 a centralized workflow would require an enourmous amount of extra work. The dictator
 workflow would divide and conquer such issue making it way faster and efficient.
 
+----------------------------------------------------------------------------------------------------
+
+5.
+
+A)Polymorphism is indeed used in this prototype. It uses it when the children classes
+of the class Weapon modify their hit function. The keyword virtual makes it a requirement 
+for each child of Weapon.
+B)Encapsulation is also used in the protoype. Specifically the weapon classes are
+being encapsulated by the class WeaponFactory which is the one that returns everything 
+from those classes in main.
+
 
